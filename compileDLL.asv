@@ -1,0 +1,17 @@
+% function is a must-have function for code generation.
+
+% % coder file to compile a DLL for the MATLAB Coder.
+% % This file is called by the MATLAB Coder.
+
+function compileDLL()
+    coder.cinclude('dylib.hpp');
+    coder.cinclude('dynamicLib.cpp');
+    
+
+    
+
+
+
+
+
+end
