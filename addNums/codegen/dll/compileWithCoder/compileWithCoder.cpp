@@ -5,11 +5,12 @@
 // File: compileWithCoder.cpp
 //
 // MATLAB Coder version            : 5.2
-// C/C++ source code generated on  : 14-Feb-2022 14:48:46
+// C/C++ source code generated on  : 15-Feb-2022 11:57:44
 //
 
 // Include Files
 #include "compileWithCoder.h"
+#include "ThisLib.cpp"
 #include "dylib.hpp"
 #include <stdio.h>
 
@@ -23,7 +24,7 @@ void compileWithCoder()
   //  function is a must-have function for code generation.
   //  % coder file to compile a DLL for the MATLAB Coder.
   //  % This file is called by the MATLAB Coder.
-  //  create a variable to hold the result of the addition
+  //  create a variable to hold the result of the addition)
   //  call the C++ function
   adder(4, 10);
   //  print answer

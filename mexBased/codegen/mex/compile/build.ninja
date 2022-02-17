@@ -1,0 +1,51 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = C:/Program Files/MATLAB/R2021a
+startdir = C:/Users/oba7931403/Documents/toy/CoderCompilesDLL/mexBased
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2021a\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2021a\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2021a\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2021a\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\codegen\mex\compile" -I "C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased" -I "C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\codegen\mex\compile\interface" -I "C:\Program Files\MATLAB\R2021a\extern\include" -I "." -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\codegen\mex\compile" -I "C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased" -I "C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\codegen\mex\compile\interface" -I "C:\Program Files\MATLAB\R2021a\extern\include" -I "." -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+ldflags =  -m64 -Wl,--no-undefined -shared -static -L"C:\Program Files\MATLAB\R2021a\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "compile_mex.mexw64" -llibemlrt -llibcovrt -llibut -llibmwmathutil  -Wl,--version-script,compile_mex.map
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir/compile_data.o : cc $root/compile_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/compile_initialize.o : cc $root/compile_initialize.c
+build $builddir/compile_terminate.o : cc $root/compile_terminate.c
+build $builddir/compile.o : cc $root/compile.c
+build $builddir/_coder_compile_api.o : cc $root/interface/_coder_compile_api.c
+build $builddir/_coder_compile_mex.o : cc $root/interface/_coder_compile_mex.c
+build $builddir/compile_emxutil.o : cc $root/compile_emxutil.c
+build $builddir/_coder_compile_info.o : cc $root/interface/_coder_compile_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\compile_mex.mexw64 : link $builddir/compile_data.o $builddir/rt_nonfinite.o $builddir/compile_initialize.o $builddir/compile_terminate.o $builddir/compile.o $builddir/_coder_compile_api.o $builddir/_coder_compile_mex.o $builddir/compile_emxutil.o $builddir/_coder_compile_info.o $builddir/c_mexapi_version.o 

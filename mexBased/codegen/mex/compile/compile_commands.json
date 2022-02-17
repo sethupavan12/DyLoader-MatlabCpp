@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   compile_data.c -o build/win64/compile_data.o",
+    "file": "compile_data.c",
+    "output": "build/win64/compile_data.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   compile_initialize.c -o build/win64/compile_initialize.o",
+    "file": "compile_initialize.c",
+    "output": "build/win64/compile_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   compile_terminate.c -o build/win64/compile_terminate.o",
+    "file": "compile_terminate.c",
+    "output": "build/win64/compile_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   compile.c -o build/win64/compile.o",
+    "file": "compile.c",
+    "output": "build/win64/compile.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_compile_api.c -o build/win64/_coder_compile_api.o",
+    "file": "interface/_coder_compile_api.c",
+    "output": "build/win64/_coder_compile_api.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_compile_mex.c -o build/win64/_coder_compile_mex.o",
+    "file": "interface/_coder_compile_mex.c",
+    "output": "build/win64/_coder_compile_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   compile_emxutil.c -o build/win64/compile_emxutil.o",
+    "file": "compile_emxutil.c",
+    "output": "build/win64/compile_emxutil.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_compile_info.c -o build/win64/_coder_compile_info.o",
+    "file": "interface/_coder_compile_info.c",
+    "output": "build/win64/_coder_compile_info.o"
+  },
+  {
+    "directory": "C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\" -I \"C:\\Users\\oba7931403\\Documents\\toy\\CoderCompilesDLL\\mexBased\\codegen\\mex\\compile\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I \".\" -DMODEL=compile_mex -D__USE_MINGW_ANSI_STDIO=1   \"C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c\" -o build/win64/c_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

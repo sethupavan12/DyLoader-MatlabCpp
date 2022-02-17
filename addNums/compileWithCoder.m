@@ -5,18 +5,20 @@
 
 function entryPoint()
     coder.cinclude('dylib.hpp');
+    
+    coder.updateBuildInfo('addSourceFiles', 'ThisLib.cpp')
     answer = coder.opaque('double','0');
 
-    answer = adder()
+    answer = addFunc();
 
     % print answer
     fprintf('The answer is ', answer);
 
 end
 
-function c = adder()
-    % create a variable to hold the result of the addition
-    coder.updateBuildInfo('addSourceFiles', 'ThisLib.cpp')
+function c = addFunc()
+    % create a variable to hold the result of the addition)
+    coder.cinclude('ThisLib.cpp')
     a = coder.opaque('double','4');
     b = coder.opaque('double','10');
     c = coder.opaque('double','0');
