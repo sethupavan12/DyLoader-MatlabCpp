@@ -6,7 +6,7 @@
 
 ### Example
 ### Prechecks and Basic Idea
-1. if you are windows user, MingGW so you can enjoy gcc/g++ on Windows
+1. if you are windows user, MinGW so you can enjoy gcc/g++ on Windows
 2. Open folder mexBased in main branch of the repository (disregard the name)
 3. Open and checkout ` Wrapper.cpp `. It is the file that has been / will be compiled into a DLL 
    Notice how every function has DYLIB_API. It is a must for Dylib to be able to extract the functions from the DLL
@@ -24,3 +24,12 @@
 ## We can further improve on this with writing more automated scripts as well
 
 ### Tool that extracts functions or variables from dynamic library at Run-time to compute MEX C++ functions dynamically using MATLAB Coder
+
+
+# Usage for custom scripts
+
+Make sure all you've got MinGW if you are windows
+1. Make sure you include "dylib.hpp" in your custom script where you have your functions that are going to be used
+2. Make sure there's DYLIB_API infront of function names. (The functions you want to use)
+3. Edit build.bat according to the name of your file (or we can restrict the user here)
+4. Remember the function name you'd like to use and enter when prompted for it at some point in RAT
