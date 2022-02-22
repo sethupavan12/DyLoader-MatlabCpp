@@ -1,6 +1,6 @@
 # DyLoader C++ and Matlab
 
-## DyLoader help dynamically load methods from a dynamic library using DyLib and some custom scripts
+## DyLoader help dynamically load methods from a dynamic library using (DyLib)[https://github.com/martin-olivier/dylib] and some custom scripts
 
 ### Case 1: Load a function from a dynamic library compiled with C++ 
 
