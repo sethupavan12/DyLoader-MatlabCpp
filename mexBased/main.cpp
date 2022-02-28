@@ -6,27 +6,16 @@
 int main()
 {
     try {
-        dylib lib("./shared_lib", dylib::extension);
+        dylib lib("./package/newCompile/compile", dylib::extension);
 
-        auto nth_prime = lib.get_function<void(int)>("nth_prime");
-        nth_prime(5);
-        std::cout << "Success" << std::endl;
+        auto nth_prime = lib.get_function<int(int)>("compile");
+        //nth_prime(5);
+        int a = 5;
+        int ans = nth_prime(a);
+        printf("%d\n", ans);
 
-        auto print_hello = lib.get_function<void()>("print_hello");
-        print_hello();
-        std::cout << "Success" << std::endl;
+        return 0;
 
-       
-
-        // auto printer = lib.get_function<void()>("print_hello");
-        // printer();
-
-        // double pi_value = lib.get_variable<double>("pi_value");
-        // std::cout << pi_value << std::endl;
-
-        // auto &ptr = lib.get_variable<void *>("ptr");
-        // if (ptr == (void *)1)
-        //     std::cout << "1" << std::endl;
      }
     catch (const dylib::exception &e) {
         std::cerr << e.what() << std::endl;

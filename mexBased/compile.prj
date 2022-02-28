@@ -1,19 +1,19 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2021a">
-  <configuration build-checksum="1444147443" file="C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\compile.prj" location="C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased" name="compile" preferred-package-location="C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\package" preferred-package-type="package.type.zip.flat" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="1759263816" file="C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\compile.prj" location="C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased" name="compile" preferred-package-location="C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\package" preferred-package-type="package.type.zip.flat" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
-      <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
+      <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
       <param.WorkingFolder>option.WorkingFolder.Project</param.WorkingFolder>
       <param.SpecifiedWorkingFolder />
       <param.BuildFolder>option.BuildFolder.Project</param.BuildFolder>
       <param.SpecifiedBuildFolder />
       <param.SearchPaths />
-      <param.ResponsivenessChecks>true</param.ResponsivenessChecks>
-      <param.ExtrinsicCalls>true</param.ExtrinsicCalls>
-      <param.IntegrityChecks>true</param.IntegrityChecks>
+      <param.ResponsivenessChecks />
+      <param.ExtrinsicCalls />
+      <param.IntegrityChecks />
       <param.SaturateOnIntegerOverflow>true</param.SaturateOnIntegerOverflow>
       <param.EnableAutoParallelization>false</param.EnableAutoParallelization>
-      <param.GlobalDataSyncMethod>option.GlobalDataSyncMethod.SyncAlways</param.GlobalDataSyncMethod>
+      <param.GlobalDataSyncMethod />
       <param.EnableVariableSizing>true</param.EnableVariableSizing>
       <param.DynamicMemoryAllocation>option.DynamicMemoryAllocation.Threshold</param.DynamicMemoryAllocation>
       <param.DynamicMemoryAllocationThreshold>65536</param.DynamicMemoryAllocationThreshold>
@@ -29,7 +29,7 @@
       <param.CodeFormattingTool>option.CodeFormattingTool.Auto</param.CodeFormattingTool>
       <param.ReservedNameArray />
       <param.CppStyleConst>true</param.CppStyleConst>
-      <param.EnableDebugging>false</param.EnableDebugging>
+      <param.EnableDebugging />
       <param.Verbosity>option.Verbosity.Info</param.Verbosity>
       <param.ReportPotentialDifferences>false</param.ReportPotentialDifferences>
       <param.GenerateReport>true</param.GenerateReport>
@@ -54,7 +54,7 @@
       <param.CompileTimeRecursionLimit>50</param.CompileTimeRecursionLimit>
       <param.EnableRuntimeRecursion>true</param.EnableRuntimeRecursion>
       <param.PreserveVariableNames>option.PreserveVariableNames.None</param.PreserveVariableNames>
-      <param.EchoExpressions>true</param.EchoExpressions>
+      <param.EchoExpressions />
       <param.InlineThreshold>10</param.InlineThreshold>
       <param.InlineThresholdMax>200</param.InlineThresholdMax>
       <param.InlineStackLimit>1000000</param.InlineStackLimit>
@@ -65,12 +65,12 @@
       <param.MemcpyThreshold>64</param.MemcpyThreshold>
       <param.EnableOpenMP>true</param.EnableOpenMP>
       <param.InitFltsAndDblsToZero>true</param.InitFltsAndDblsToZero>
-      <param.ConstantInputs>option.ConstantInputs.CheckValues</param.ConstantInputs>
+      <param.ConstantInputs />
       <param.EnableCRICodeCoverage>true</param.EnableCRICodeCoverage>
       <param.EnableAutoParallelizationReporting>true</param.EnableAutoParallelizationReporting>
       <param.EnableJIT>false</param.EnableJIT>
-      <param.EnableJITSilentBailOut>false</param.EnableJITSilentBailOut>
-      <param.CheckForIssuesJIT>true</param.CheckForIssuesJIT>
+      <param.EnableJITSilentBailOut />
+      <param.CheckForIssuesJIT />
       <param.EnableGitSupport>false</param.EnableGitSupport>
       <param.EnableAutoCommit>false</param.EnableAutoCommit>
       <param.RepositoryStyle>option.RepositoryStyle.Auto</param.RepositoryStyle>
@@ -300,7 +300,7 @@
       <param.IndentStyle>option.IndentStyle.K&amp;R</param.IndentStyle>
       <param.IndentSize>2</param.IndentSize>
       <param.ColumnLimit>80</param.ColumnLimit>
-      <param.grt.GenCodeOnly>true</param.grt.GenCodeOnly>
+      <param.grt.GenCodeOnly>false</param.grt.GenCodeOnly>
       <param.ConstantFoldingTimeout>40000</param.ConstantFoldingTimeout>
       <param.CompileTimeRecursionLimit>50</param.CompileTimeRecursionLimit>
       <param.EnableRuntimeRecursion>true</param.EnableRuntimeRecursion>
@@ -478,6 +478,7 @@
         <param.IndentStyle />
         <param.IndentSize />
         <param.ColumnLimit />
+        <param.grt.GenCodeOnly />
         <param.ConstantFoldingTimeout />
         <param.CompileTimeRecursionLimit />
         <param.EnableRuntimeRecursion />
@@ -873,7 +874,7 @@
     <param.TestSnippets />
     <param.ExternalFcnMajority>column</param.ExternalFcnMajority>
     <param.UseGlobals>option.UseGlobals.No</param.UseGlobals>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\compile\compile.lib</param.outputfile>
+    <param.outputfile>${PROJECT_ROOT}\codegen\dll\compile\compile.dll</param.outputfile>
     <param.version>R2012a</param.version>
     <param.HasECoderFeatures>true</param.HasECoderFeatures>
     <param.HasGpuCoder>true</param.HasGpuCoder>
@@ -895,9 +896,9 @@
     <var.redirectedInputTypeData />
     <var.DismissScreener>false</var.DismissScreener>
     <param.unifiedParamStorage />
-    <var.gc.lastOutputRoot>codegen\lib\compile</var.gc.lastOutputRoot>
-    <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>1444147443</var.gc.preBuildChecksum>
+    <var.gc.lastOutputRoot>codegen\dll\compile</var.gc.lastOutputRoot>
+    <var.gc.lastOutputType>SHARED_LIBRARY</var.gc.lastOutputType>
+    <var.gc.preBuildChecksum>1309947408</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot />
     <var.cfi.preBuildChecksum />
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
@@ -913,8 +914,8 @@
     <var.ecoderEnabled>true</var.ecoderEnabled>
     <param.mex.outputfile>compile_mex</param.mex.outputfile>
     <param.grt.outputfile>compile</param.grt.outputfile>
-    <param.artifact>option.target.artifact.lib</param.artifact>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\compile\compile.lib</param.outputfile>
+    <param.artifact>option.target.artifact.dll</param.artifact>
+    <param.outputfile>${PROJECT_ROOT}\codegen\dll\compile\compile.dll</param.outputfile>
     <param.CppNamespace />
     <param.CppPackagesToNamespaces>true</param.CppPackagesToNamespaces>
     <param.CppNamespaceForMathworksCode>coder</param.CppNamespaceForMathworksCode>
@@ -1145,7 +1146,7 @@
       </file>
     </fileset.inputtypes>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\codegen\lib\compile" name="compile.lib" optional="false">C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\codegen\lib\compile\compile.lib</file>
+      <file location="${PROJECT_ROOT}\codegen\dll\compile" name="compile.dll" optional="false">C:\Users\oba7931403\Documents\toy\CoderCompilesDLL\mexBased\codegen\dll\compile\compile.dll</file>
     </build-deliverables>
     <workflow />
     <matlab>
